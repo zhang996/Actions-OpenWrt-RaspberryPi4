@@ -1,6 +1,6 @@
 # 树莓派4-openwrt
 
-使用Github Action编译树莓派4的Openwrt，感谢P3TERX的[Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)项目
+使用Github Action编译树莓派4的Openwrt，感谢P3TERX的[Actions-OpenWrt](https://github.com/P3TERX/Actions-OpenWrt)项目  
 基于[lean](https://github.com/coolsnowwolf/lede)的源码  
 添加[lienol](https://github.com/Lienol/openwrt-package)的部分软件  
 
