@@ -42,3 +42,6 @@ cp -f ../banner package/base-files/files/etc/
 
 #添加nfs
 cp -rf ../luci-app-nfs package/lean/
+
+# Change timezone
+sed -i "s/'UTC'/'CST-8'\n        set system.@system[-1].zonename='Asia\/Shanghai'/g" package/base-files/files/bin/config_generate
