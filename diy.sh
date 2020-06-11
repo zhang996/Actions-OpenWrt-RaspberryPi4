@@ -16,7 +16,7 @@ git clone https://github.com/rufengsuixing/luci-app-onliner.git package/luci-app
 git clone https://github.com/lisaac/luci-app-diskman package/luci-app-diskman
 mkdir -p package/parted && cp -i package/luci-app-diskman/Parted.Makefile package/parted/Makefile
 mkdir -p package/lean/smartdns && wget -P package/lean/smartdns https://raw.githubusercontent.com/openwrt/packages/master/net/smartdns/Makefile
-git clone https://github.com/Apocalypsor/luci-app-smartdns.git package/lean/luci-app-smartdns
+git clone https://github.com/ujincn/luci-app-smartdns-compat.git package/lean/luci-app-smartdns
 
 #修复核心及添加温度显示
 sed -i 's|pcdata(boardinfo.system or "?")|luci.sys.exec("uname -m") or "?"|g' feeds/luci/modules/luci-mod-admin-full/luasrc/view/admin_status/index.htm
